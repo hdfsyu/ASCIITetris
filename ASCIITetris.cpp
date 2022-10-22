@@ -167,7 +167,7 @@ int main() {
 		WriteConsoleOutputCharacter(hConsole, screen, swidth * sheight, { 0,0 }, &dwBytesWritten);
 	}
 	CloseHandle(hConsole);
-	cout << "Game Over... Your score:" << score << endl;
+	cout << "Game Over... Your score: " << score << endl;
 	system("pause");
 	return 0;
 }
